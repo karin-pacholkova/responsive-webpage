@@ -23,6 +23,10 @@
 	--very-dark-brown: #1A1515;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: "Roboto", Arial, sans-serif;
 }
@@ -123,7 +127,7 @@ nav li {
 }
 
 .hero {
-	width: 100vw;
+	width: 100%;
 	height: calc(100vh - 72px);
 	background-image: url(images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg);
 	background-position: top center;
